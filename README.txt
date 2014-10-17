@@ -1,11 +1,10 @@
 Nicholas Falba
-nrf2118 
-Programming Assignment 1
+Short Chat Program
 
 a) My code has 6 public classes, Server.java, Client.java, which house the two main methods
 for Server and Client, respectively. Also User.java, UserList.java, which support methods 
-involving maintenance of the list of users after they are read in. And finally,
-MessageList.java and Message.java which support the functions involved with adding,
+involving maintenance of the list of users registered with the program that are read in from the user_pass.txt file.
+And finally, MessageList.java and Message.java which support the functions involved with adding,
 storing, and printing messages that support offline messaging. These classes and methods
 are described in detail in the comments on their pages.
 
