@@ -42,15 +42,17 @@ One thing: This is the first time I've had to create a multi-threaded program. I
 learning about threading in operating systems, so my threading might be a bit sloppy,
 although everything works. While no Users should be able to modify shared fields at the
 same time, I may have overlooked something that would be obvious to an experienced
-multi-threaded programmer. Since this isn't OS, I hope the TAs would be lenient to
-any unforseen issues related to multi-threading.
+multi-threaded programmer.
 
 b)I developed all my code in vim, run from Terminal on my mac. It was a pain.
 
-c) To run my code, you must go into the folder when all the .java files are stored. It is
-the folder that comes when you  unzip the file, ChatProgHw1 and just type
-"make". Then run the server and client from the command line as in the java examples on
-the assignment instructions.
+c) To run my code, you must go into the directory where all the .java files are
+stored and type "make". To run the server:
+
+java Server <port_number>
+
+To run the Client:
+java Client <server_ip> <port_number>
 
 d) java Server 48642
 java Client localhost 48642 are examples to compile my code
